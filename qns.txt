@@ -1,3 +1,31 @@
+week 1:
+
+3. write a program to read no of lines, no of words, no of digits, no of vowels and no of consonants
+
+
+week 2:
+
+1. write a lex program to read a txt into the program and display the number of vowels, digits, consonants and special characters in the given input
+
+2.  write a lex program to read the filename as an input and display the number of lines, number of words, no of characters and no of digits in the given input file
+
+
+week 3:
+
+
+1.
+write a lex program, to read an input text to display if the word is int, float, char, else,if or display if a is identifier or keyword.
+
+2.
+write a lex program read an input text & display the no of identifiers, lines, integers and floating point numbers are existing in given text
+
+3. 
+wria bte a lex program to accept or reject any regular expression with a sub string 010. Binary string
+
+4.
+lex file through command line
+
+
 week 4:
 
 1. /* LEX Program for identifying
