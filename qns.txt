@@ -1,0 +1,90 @@
+week 4:
+
+1. /* LEX Program for identifying
+Keywords: int, char, double, void, main
+Identifier: letter (letter digit) * and
+storing in Symbol table
+Integer and Float*/
+
+2. Lex Program dealing with comments
+
+week 5:
+
+1. Write a lex program to take the file name as an input. Need to apply the lexical analyser on the input file contents. if the lexime is part of the single line comment or multiline comment need to ignore that laxime. if it is not part of the comment and it is any one of the following then display it as a keyword(int, char, float, double, void, return). if the lexeme is not a keyword and starts with a letter followed by a letter/digit combination then display it as an identifier, insert the identifier in the symbol table. if the lexeme is an integer display it as an integer, if the lexeme is a floating point value display it as float.
+
+week 6:
+
+1. I enclosed the code to find the FIRST and Follow of every variable. The code will work for FIRST; it needs to modify the code of FOLLOW. Do the modification and submit the modified code as an assignment.
+
+week 7:
+
+1. FIRST and FOLLOW
+
+
+week 8:
+
+1. Recursive Descent Parser
+
+
+2. I enclosed the code for the recursive decent parser for the following grammar. 
+E -> TE’
+
+
+E’->+TE’ | ͼ
+
+
+T->FT’
+
+
+T’->*FT’ | ͼ
+
+
+F->(E) | i
+
+Go through the code and understand
+modify the code for the following grammar
+
+S--> aSa
+S--> bSb
+S-->c
+
+week 9:
+
+1. I enclosed the code for the recursive decent parser for the given grammar
+E -> TE’
+E’->+TE’ | ͼ
+T->FT’
+T’->*FT’ | ͼ
+F->(E) | i
+go through the code and understand the code.
+modify the code for the following grammar and submit it as an assignment
+S-->aSa
+S-->bSb
+S-->c
+
+
+week 10:
+
+I enclosed the code for implementing shift-reduce parsing for the expression grammar. Please go through it and under stand the code.
+
+Modify the code for the following grammar
+S--> AB
+A-->aAa
+A-->bAb
+A-->c
+B-->0B1
+B-->01
+
+
+week 11:
+
+1. Dear Students
+Please run the Yacc program given in the attachment.
+Modify the program for the following Grammar.
+
+E-->E+T
+E-->E-T
+E-->T
+T-->T*F
+T-->T/F
+F-->digit
